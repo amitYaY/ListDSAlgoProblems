@@ -1,0 +1,13 @@
+########################################################################################################################  
+										     List and Linked List Problems
+########################################################################################################################  
+    
+1	How do you find the middle element of a singly linked list in one pass?
+2	How do you check if a given linked list contains a cycle? 
+3   How do you find the starting node of the cycle?
+4	How do you reverse a linked list?
+5	How do you reverse a singly linked list without recursion?
+6	How are duplicate nodes removed in an unsorted linked list?
+7	How do you find the length of a singly linked list?
+8	How do you find the third node from the end in a singly linked list?
+9	How do you find the sum of two linked lists using Stack? 
