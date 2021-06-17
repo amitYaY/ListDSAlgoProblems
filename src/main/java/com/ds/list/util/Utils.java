@@ -19,20 +19,5 @@ public class Utils {
 		list.add("K");
 		return list;
 	}
-	
-	public static java.util.LinkedList<String> getLinkedList() {
-		java.util.LinkedList<String> list = new java.util.LinkedList<>();
-		list.add("K");
-		list.add("L");
-		list.add("M");
-		list.add("N");
-		list.add("O");
-		list.add("P");
-		list.add("Q");
-		list.add("R");
-		list.add("S");
-		list.add("T");
-		return list;
-	}
 
 }
