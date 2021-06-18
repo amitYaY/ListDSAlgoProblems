@@ -10,4 +10,5 @@
 6	How are duplicate nodes removed in an unsorted linked list?
 7	How do you find the length of a singly linked list?
 8	How do you find the third node from the end in a singly linked list?
-9	How do you find the sum of two linked lists using Stack? 
+9	How do you find the sum of two linked lists using Stack?
+10  Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.
