@@ -14,14 +14,17 @@ public class LinkedList<T> {
 	}
 
 	public Node<T> add(T value) {
+		Node<T> temp = null;
 		if (this.head == null) {
-			this.head = new Node<T>(value);
+			temp =  new Node<T>(value);
+			this.head = temp;
 			this.tail = this.head;
 		} else {
-			this.tail.next = new Node<T>(value);
+			temp =  new Node<T>(value);
+			this.tail.next = temp;
 			this.tail = this.tail.next;
 		}
-		return this.head;
+		return temp;
 	}
 
 	public static class Node<T> {
@@ -53,6 +56,17 @@ public class LinkedList<T> {
 		public void setNext(Node<T> next) {
 			this.next = next;
 		}
+	}
+	
+	@Override
+	public String toString() {
+		String s = "";
+		Node<T> head = this.head;
+		while(head!=null) {
+			s=s+"->"+head.getElement();
+			head = head.getNext();
+		}
+		return s;
 	}
 
 }
