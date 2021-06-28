@@ -67,18 +67,18 @@ public class Utils {
 	public static LinkedList<Integer> getCustomeIntegerLinkedList_1() {
 		LinkedList<Integer> list = new LinkedList<>();
 		list.add(9);
-//		list.add(9);
-//		list.add(9);
-//		list.add(7);
-//		list.add(1);
+		list.add(9);
+		list.add(9);
+		list.add(7);
+		list.add(1);
 		return list;
 	}
 	
 	public static LinkedList<Integer> getCustomeIntegerLinkedList_2() {
 		LinkedList<Integer> list = new LinkedList<>();
 		list.add(9);
-//		list.add(9);
-//		list.add(8);
+		list.add(9);
+		list.add(8);
 		return list;
 	}
 
