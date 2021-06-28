@@ -9,5 +9,5 @@
 5	How do you reverse a singly linked list without recursion?
 6	How are duplicate nodes removed in an unsorted linked list?
 7	Remove Nth Node From End of List. [How do you find the third node from the end in a singly linked list?]
-8	How do you find the sum of two linked lists using Stack?
+8	Find the sum of two linked lists. a:: using Stack b:: without Stack
 10  Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.
